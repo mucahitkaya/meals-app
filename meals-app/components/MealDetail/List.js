@@ -1,4 +1,4 @@
-import { View, StyleSheet, Text, ScrollView } from "react-native";
+import { View, StyleSheet, Text } from "react-native";
 
 function List({ data }) {
   return data.map((dataPoint) => (
